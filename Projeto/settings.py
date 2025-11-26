@@ -27,8 +27,11 @@ SECRET_KEY = 'django-insecure-nb$x%kc635na@q@nrtvy1d6ped3_k7)r^qi91%6d*a@m&ts2r6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    "rock-arena.onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
 
 # Application definition
 
